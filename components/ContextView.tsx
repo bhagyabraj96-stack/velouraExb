@@ -195,7 +195,7 @@ export default function ContextView({ item, onBack }: ContextViewProps) {
                   <div className="p-4">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{mediaItem.name}</h3>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-500 dark:text-gray-400">{mediaItem.type.toUpperCase()}</span>
+                      {/* <span className="text-sm text-gray-500 dark:text-gray-400">{mediaItem.type.toUpperCase()}</span> */}
                       <span className="text-xs text-gray-400 dark:text-gray-500">ID: {mediaItem.id}</span>
                     </div>
                   </div>

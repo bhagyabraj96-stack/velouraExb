@@ -47,6 +47,8 @@ export const exhi34 = '/exhi_34.JPG';
 export const exhi35 = '/exhi_35.jpg';
 export const exhi36 = '/exhi_36.jpeg';
 export const exhi37 = '/exhi_37.jpeg';
+export const exhi38 = '/fidela1.mp4';
+export const exhi39 = '/fidela2.mp4';
 export const acme = '/logo-acme.png';
 export const apex = '/logo-apex.png';
 export const celestial = '/logo-celestial.png';
@@ -79,3 +81,68 @@ export const logopg5 = '/logopg_5.png';
 export const logopg6 = '/logopg_6.jpg';
 export const logopg7 = '/logopg_7.png';
 export const logopg8 = '/logopg_8.png';
+
+export const al_ghurair = '/al_ghurair.jpg';
+export const bonetech = '/bonetech.jpg';
+export const buena_cafe = '/buena_cafe.jpg';
+export const conaprole = '/conaprole.jpg';
+export const micro_solution = '/micro_solution.jpg';
+export const sudambeef = '/sudambeef.jpg';
+
+export const al_ghurair_img1 = '/al_ghurair/img29.jpeg';
+export const al_ghurair_img2 = '/al_ghurair/img30.jpeg';
+export const al_ghurair_img3 = '/al_ghurair/img31.jpeg';
+export const al_ghurair_img4 = '/al_ghurair/img32.jpeg';
+export const al_ghurair_img5 = '/al_ghurair/img33.jpeg';
+export const al_ghurair_img6 = '/al_ghurair/img34.jpeg';
+export const al_ghurair_img7 = '/al_ghurair/img35.jpeg';
+export const al_ghurair_img8 = '/al_ghurair/img36.jpeg';
+export const al_ghurair_img9 = '/al_ghurair/img37.jpeg';
+export const al_ghurair_img10 = '/al_ghurair/img38.jpeg';
+export const al_ghurair_img11 = '/al_ghurair/img39.jpeg';
+export const al_ghurair_vdo1 = '/al_ghurair/vdo3.mp4';
+
+export const bonetech_img1 = '/bonetech/img1.jpeg';
+export const bonetech_img2 = '/bonetech/img2.jpeg';
+export const bonetech_img3 = '/bonetech/img3.jpeg';
+export const bonetech_img4 = '/bonetech/img4.jpeg';
+export const bonetech_img5 = '/bonetech/img5.jpeg';
+export const bonetech_img6 = '/bonetech/img6.jpeg';
+export const bonetech_img7 = '/bonetech/img7.jpeg';
+export const bonetech_vdo1 = '/bonetech/vdo4.mp4';
+export const bonetech_vdo2 = '/bonetech/vdo5.mp4';
+
+export const buena_cafe_img11 = '/Buencafe/img11.jpeg';
+export const buena_cafe_img12 = '/Buencafe/img12.jpeg';
+export const buena_cafe_img13 = '/Buencafe/img13.jpeg';
+export const buena_cafe_img14 = '/Buencafe/img14.jpeg';
+export const buena_cafe_img15 = '/Buencafe/img15.jpeg';
+export const buena_cafe_img16 = '/Buencafe/img16.jpeg';
+export const buena_cafe_img17 = '/Buencafe/img17.jpeg';
+export const buena_cafe_vdo1 = '/Buencafe/vdo1.mp4';
+
+export const conaprole_img26 = '/conaprole/img26.jpeg';
+export const conaprole_img27 = '/conaprole/img27.jpeg';
+export const conaprole_img28 = '/conaprole/img28.jpeg';
+export const conaprole_vdo1 = '/conaprole/vdo1.mp4';
+
+export const micro_solution_img8 = '/micro_solution/img8.jpeg';
+export const micro_solution_img9 = '/micro_solution/img9.jpeg';
+export const micro_solution_img10 = '/micro_solution/img10.jpeg';
+export const micro_solution_img40 = '/micro_solution/img40.jpeg';
+export const micro_solution_img41 = '/micro_solution/img41.jpeg';
+export const micro_solution_img42 = '/micro_solution/img42.jpeg';
+export const micro_solution_img43 = '/micro_solution/img43.jpeg';
+export const micro_solution_img44 = '/micro_solution/img44.jpeg';
+export const micro_solution_img45 = '/micro_solution/img45.jpeg';
+export const micro_solution_vdo6 = '/micro_solution/vdo6.mp4';
+
+export const sudambeef_img18 = '/sudambeef/img18.jpeg';
+export const sudambeef_img19 = '/sudambeef/img19.jpeg';
+export const sudambeef_img20 = '/sudambeef/img20.jpeg';
+export const sudambeef_img21 = '/sudambeef/img21.jpeg';
+export const sudambeef_img22 = '/sudambeef/img22.jpeg';
+export const sudambeef_img23 = '/sudambeef/img23.jpeg';
+export const sudambeef_img24 = '/sudambeef/img24.jpeg';
+export const sudambeef_img25 = '/sudambeef/img25.jpeg';
+export const sudambeef_vdo2 = '/sudambeef/vdo2.mp4';

@@ -5,7 +5,7 @@ import { textAnimation } from "@/motion";
 import { testimonials } from "@/constants";
 
 export default function Testimonials() {
-	const phares = ["What our users say"];
+	const phares = ["Our Mission"];
 	const phares1 = [
 		"From intuitive design to powerful features, our app has",
 		"become an essential tool for users around the world.",

@@ -48,17 +48,7 @@ export default function LeftSideHome() {
 								transition: "transform 0.3s",
 							}}
 						/>
-						<div
-							className={`w-[50%] h-[2px] bg-white absolute ${
-								!isActive && "top-[55%]"
-							} transform -translate-x-1/2 -translate-y-1/2`}
-							style={{
-								transform: isActive ? "rotate(-45deg)" : "none",
-								transition: "transform 0.3s",
-							}}
-						/>
-					</div>
-					<button
+						<button
 							onClick={toggleTheme}
 							style={{ display: !isActive?"block":"none" }}
 							className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
@@ -74,6 +64,17 @@ export default function LeftSideHome() {
 								</svg>
 							)}
 						</button>
+						<div
+							className={`w-[50%] h-[2px] bg-white absolute ${
+								!isActive && "top-[55%]"
+							} transform -translate-x-1/2 -translate-y-1/2`}
+							style={{
+								transform: isActive ? "rotate(-45deg)" : "none",
+								transition: "transform 0.3s",
+							}}
+						/>
+					</div>
+					
 				</div>
 			</motion.div>
 			

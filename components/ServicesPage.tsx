@@ -87,20 +87,21 @@ const AnimatedCounter = ({ target, isVisible }: { target: string; isVisible: boo
 const services = [
   {
     id: 1,
-    title: "Event Design & Management",
-    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
-    image: exhi0,
-    icon: "🎯",
-    color: "from-purple-500 to-pink-500"
-  },
-  {
-    id: 2,
     title: "Exhibition Stand Design & Construction",
     description: "Transforming visions into stunning physical spaces that captivate and engage",
     image: exhi1,
     icon: "🏗️",
     color: "from-blue-500 to-cyan-500"
   },
+  {
+    id: 2,
+    title: "Event Design & Management",
+    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
+    image: exhi0,
+    icon: "🎯",
+    color: "from-purple-500 to-pink-500"
+  },
+  
   {
     id: 3,
     title: "Interior Design & Fit Out",

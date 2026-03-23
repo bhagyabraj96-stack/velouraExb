@@ -58,7 +58,7 @@ export default function Hero() {
 							whileInView="enter"
 							viewport={{ once: true }}>
 							<Button
-								className="text-white bg-black py-2 px-4"
+								className="text-white bg-black py-2 px-4 shadow-[0px_0px_8px_1px_white]"
 								title="Get free quote"
 								onClick={() => {
 									window.dispatchEvent(new CustomEvent('navigate', { detail: { page: 'contact' } }));

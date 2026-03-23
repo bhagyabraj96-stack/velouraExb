@@ -76,7 +76,67 @@ import {
   logopg2,
   logopg3,
   logopg7,
-  logopg8
+  logopg8,
+  exhi38,
+  exhi39,
+  sudambeef,
+  micro_solution,
+  conaprole,
+  buena_cafe,
+  bonetech,
+  al_ghurair,
+  al_ghurair_img1,
+  al_ghurair_img2,
+  al_ghurair_vdo1,
+  bonetech_img1,
+  bonetech_img2,
+  bonetech_vdo1,
+  conaprole_vdo1,
+  buena_cafe_vdo1,
+  al_ghurair_img3,
+  al_ghurair_img4,
+  al_ghurair_img5,
+  al_ghurair_img6,
+  al_ghurair_img7,
+  al_ghurair_img8,
+  al_ghurair_img9,
+  al_ghurair_img10,
+  al_ghurair_img11,
+  bonetech_img3,
+  bonetech_img4,
+  bonetech_img5,
+  bonetech_img6,
+  bonetech_img7,
+  bonetech_vdo2,
+  buena_cafe_img17,
+  micro_solution_vdo6,
+  micro_solution_img45,
+  micro_solution_img44,
+  micro_solution_img43,
+  micro_solution_img42,
+  micro_solution_img41,
+  micro_solution_img40,
+  micro_solution_img10,
+  micro_solution_img9,
+  micro_solution_img8,
+  conaprole_img28,
+  conaprole_img27,
+  conaprole_img26,
+  buena_cafe_img16,
+  buena_cafe_img15,
+  buena_cafe_img14,
+  buena_cafe_img13,
+  buena_cafe_img12,
+  buena_cafe_img11,
+  sudambeef_img18,
+  sudambeef_img19,
+  sudambeef_img20,
+  sudambeef_img21,
+  sudambeef_img22,
+  sudambeef_img23,
+  sudambeef_img24,
+  sudambeef_img25,
+  sudambeef_vdo2
 } from "@/public";
 import wechatQr from "@/public/wechat-qr.jpeg";
 import { features } from "process";
@@ -181,25 +241,25 @@ export const pricingTiers = [
 export const testimonials = [
    {
       id: 1,
-      text: "By serving a wide variety of industries, our exhibition team has gained extensive knowledge and experience in achieving our clients’ objectives.. ",
+      text: "To design and build innovative exhibition spaces that effectively communicate our clients’ brand stories, ensuring impactful engagement and memorable visitor experiences. ",
       src: exhi0,
-      name: "Custom Exhibition Solutions",
+      name: "Delivering Exceptional Exhibition Solutions",
      // username: "@uae",
       
    },
    {
       id: 2,
-      text: "We excel in creating and delivering impactful events for our valued clients, offering tailored solutions that cover everything from pre-event planning to post-event wrap-up.. ",
+      text: "To continuously integrate creative design, advanced technology, and strategic thinking in order to deliver world-class exhibition and event solutions that exceed client expectations ",
       src: exhi1,
-      name: "Beyond Events",
+      name: "Driving Creativity and Innovation",
      // username: "@uae",
       
    },
    {
       id: 3,
-      text: "Our professional team delivers exceptional, customized solutions for all your interior design projects. ",
+      text: "To foster strong and long-term relationships with our clients by delivering reliable, high-quality services with professionalism, transparency, and attention to detail. ",
       src: exhi2,
-      name: "Interior Concepts & Execution",
+      name: "Building Lasting Partnerships",
      // username: "@uae",
       
    },
@@ -236,7 +296,7 @@ export const testimonials = [
     {
       id: 30,
       src: exhi30,
-      name: "FIDELA",
+      name: "Nakamichi",
       username: "@uae",
     },
     
@@ -257,7 +317,373 @@ export const testimonials = [
 
 export const portpofolio = [
    {
-      id: 20,
+      id: 40,
+      src: al_ghurair_img1,
+      name: "Al Ghurair",
+      folder: "al_ghurair",
+      username: "@uae",
+      context: [
+         {
+            id: 401,
+            src: al_ghurair_img1,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 402,
+            src: al_ghurair_img2,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 404,
+            src: al_ghurair_img3,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 405,
+            src: al_ghurair_img4,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 406,
+            src: al_ghurair_img5,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 407,
+            src: al_ghurair_img6,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 408,
+            src: al_ghurair_img7,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 409,
+            src: al_ghurair_img8,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 410,
+            src: al_ghurair_img9,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 411,
+            src: al_ghurair_img10,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+{
+            id: 412,
+            src: al_ghurair_img11,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 403,
+            src: al_ghurair_vdo1,
+            name: "Al Ghurair Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 41,
+      src: bonetech_img1,
+      name: "Bonetech",
+      folder: "bonetech",
+      username: "@uae",
+      context: [
+         {
+            id: 411,
+            src: bonetech_img1,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 412,
+            src: bonetech_img2,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 413,
+            src: bonetech_img3,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 414,
+            src: bonetech_img4,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 415,
+            src: bonetech_img5,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 416,
+            src: bonetech_img6,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 417,
+            src: bonetech_img7,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 418,
+            src: bonetech_vdo1,
+            name: "Bonetech",
+            type: "mp4",
+         },
+         {
+            id: 419,
+            src: bonetech_vdo2,
+            name: "Review Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 42,
+      src: buena_cafe_img11,
+      name: "Buena Cafe",
+      folder: "Buencafe",
+      username: "@uae",
+      context: [
+         {
+            id: 421,
+            src: buena_cafe_img11,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 422,
+            src: buena_cafe_img12,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 423,
+            src: buena_cafe_img13,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 424,
+            src: buena_cafe_img14,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 425,
+            src: buena_cafe_img15,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 426,
+            src: buena_cafe_img16,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 427,
+            src: buena_cafe_img17,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 428,
+            src: buena_cafe_vdo1,
+            name: "Buena Cafe Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 43,
+      src: conaprole_img26,
+      name: "Conaprole",
+      folder: "conaprole",
+      username: "@uae",
+      context: [
+         {
+            id: 431,
+            src: conaprole_img26,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 432,
+            src: conaprole_img27,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 433,
+            src: conaprole_img28,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 434,
+            src: conaprole_vdo1,
+            name: "Conaprole Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 44,
+      src: micro_solution_img8,
+      name: "Micro Solution",
+      folder: "micro_solution",
+      username: "@uae",
+      context: [
+         {
+            id: 441,
+            src: micro_solution_img8,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 442,
+            src: micro_solution_img9,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 443,
+            src: micro_solution_img10,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 444,
+            src: micro_solution_img40,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 445,
+            src: micro_solution_img41,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 446,
+            src: micro_solution_img42,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 447,
+            src: micro_solution_img43,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 448,
+            src: micro_solution_img44,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 449,
+            src: micro_solution_img45,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 450,
+            src: micro_solution_vdo6,
+            name: "Micro Solutions Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 45,
+      src: sudambeef_img18,
+      name: "Sudambeef",
+      folder: "sudambeef",
+      username: "@uae",
+      context: [
+         {
+            id: 451,
+            src: sudambeef_img18,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 452,
+            src: sudambeef_img19,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 453,
+            src: sudambeef_img20,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 454,
+            src: sudambeef_img21,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 455,
+            src: sudambeef_img22,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 456,
+            src: sudambeef_img23,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 457,
+            src: sudambeef_img24,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 458,
+            src: sudambeef_img25,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 459,
+            src: sudambeef_vdo2,
+            name: "Sudambeef Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 29,
       src: exhi20,
       name: "BRISTOL",
       username: "@uae",
@@ -298,55 +724,67 @@ export const portpofolio = [
    {
       id: 30,
       src: exhi30,
-      name: "FIDELA",
+      name: "Nakamichi",
       username: "@uae",
       context: [
          {
             id: 300,
             src: exhi30,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
          },
           {
             id: 301,
             src: exhi31,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
          },
           {
             id: 302,
             src: exhi32,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
          },
           {
             id: 303,
             src: exhi33,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
          },
           {
             id: 304,
             src: exhi34,
-            name: "FIDELA",
-            type: "jpg",
+            name: "Nakamichi",
+            type: "jpeg",
          }, {
             id: 305,
             src: exhi35,
-            name: "FIDELA",
-            type: "jpg",
+            name: "Nakamichi",
+            type: "jpeg",
          },
           {
             id: 306,
             src: exhi36,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
          },
           {
             id: 307,
             src: exhi37,
-            name: "FIDELA",
+            name: "Nakamichi",
             type: "jpeg",
+         },
+         {
+            id: 308,
+            src: exhi38,
+            name: "Nakamichi",
+            type: "mp4",
+         },
+          {
+            id: 309,
+            src: exhi39,
+            name: "Review",
+            type: "mp4",
          }
          
       ],
@@ -365,9 +803,27 @@ export const portpofolio = [
          },
           {
             id: 1701,
-            src: exhi2,
+            src: exhi17,
             name: "Deson Project",
-            type: "png",
+            type: "jpeg",
+         },
+         {
+            id: 1702,
+            src: exhi16,
+            name: "Deson Project",
+            type: "jpeg",
+         },
+         {
+            id: 1704,
+            src: exhi18,
+            name: "Deson Project",
+            type: "jpeg",
+         },
+         {
+            id: 1703,
+            src: exhi19,
+            name: "Deson Project",
+            type: "jpeg",
          }
          
       ],
@@ -400,28 +856,11 @@ export const portpofolio = [
          },
          {
             id: 302,
-            src: exhi5,
+            src: exhi2,
             name: "KJO ",
             type: "png",
-         },
-         {
-            id: 401,
-            src: exhi6,
-            name: "KJO ",
-            type: "jpeg",
-         },
-         {
-            id: 402,
-            src: exhi3,
-            name: "KJO ",
-            type: "jpeg",
-         },
-          {
-            id: 501,
-            src: exhi7,
-            name: "Integration Demo",
-            type: "mp4",
-         },
+         }
+         
       ],
    },
   
@@ -483,12 +922,12 @@ export const portpofolio = [
       name: "YOKOGAWA",
       username: "@uae",
       context: [
-         {
-            id: 901,
-            src: exhi11,
-            name: "Task Management",
-            type: "mp4",
-         },
+         // {
+         //    id: 901,
+         //    src: exhi11,
+         //    name: "Task Management",
+         //    type: "mp4",
+         // },
       ],
    },
    {
@@ -498,12 +937,12 @@ export const portpofolio = [
       name: "HYPE",
       username: "@uae",
       context: [
-         {
-            id: 1001,
-            src: exhi12,
-            name: "Hype Project",
-            type: "jpeg",
-         },
+         // {
+         //    id: 1001,
+         //    src: exhi12,
+         //    name: "Hype Project",
+         //    type: "jpeg",
+         // },
       ],
    },
    {
@@ -513,12 +952,12 @@ export const portpofolio = [
       name: "RAHEB GROUP",
       username: "@uae",
       context: [
-         {
-            id: 1101,
-            src: exhi13,
-            name: "Raheb Group Project",
-            type: "png",
-         },
+         // {
+         //    id: 1101,
+         //    src: exhi13,
+         //    name: "Raheb Group Project",
+         //    type: "png",
+         // },
       ],
    },
    
@@ -529,12 +968,12 @@ export const portpofolio = [
       name: "MANDIANT GOOGLE CLOUD",
       username: "@uae",
       context: [
-         {
-            id: 1301,
-            src: exhi12,
-            name: "Mandiant Google Cloud Project",
-            type: "mp4",
-         },
+         // {
+         //    id: 1301,
+         //    src: exhi12,
+         //    name: "Mandiant Google Cloud Project",
+         //    type: "mp4",
+         // },
       ],
    },
    {
@@ -544,12 +983,12 @@ export const portpofolio = [
       name: "QUALYS",
       username: "@uae",
       context: [
-         {
-            id: 1401,
-            src: exhi13,
-            name: "Qualys Project",
-            type: "png",
-         },
+         // {
+         //    id: 1401,
+         //    src: exhi13,
+         //    name: "Qualys Project",
+         //    type: "png",
+         // },
       ],
    },
    {
@@ -559,12 +998,12 @@ export const portpofolio = [
       name: "VIKING",
       username: "@uae",
       context: [
-         {
-            id: 1501,
-            src: exhi4,
-            name: "Viking Project",
-            type: "jpeg",
-         },
+         // {
+         //    id: 1501,
+         //    src: exhi4,
+         //    name: "Viking Project",
+         //    type: "jpeg",
+         // },
       ],
    },
    {
@@ -574,12 +1013,12 @@ export const portpofolio = [
       name: "BULWARK",
       username: "@uae",
       context: [
-         {
-            id: 1601,
-            src: exhi1,
-            name: "Bulwark Project",
-            type: "mp4",
-         },
+         // {
+         //    id: 1601,
+         //    src: exhi1,
+         //    name: "Bulwark Project",
+         //    type: "mp4",
+         // },
       ],
    },
   

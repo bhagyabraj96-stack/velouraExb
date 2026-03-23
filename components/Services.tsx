@@ -39,22 +39,23 @@ import {
 } from "@/public";
 
 const services = [
-  {
+   {
     id: 1,
-    title: "Event Design & Management",
-    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
-    image: exhi0,
-    icon: "🎯",
-    color: "from-purple-500 to-pink-500"
-  },
-  {
-    id: 2,
     title: "Exhibition Stand Design & Construction",
     description: "Transforming visions into stunning physical spaces that captivate and engage",
     image: exhi1,
     icon: "🏗️",
     color: "from-blue-500 to-cyan-500"
   },
+  {
+    id: 2,
+    title: "Event Design & Management",
+    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
+    image: exhi0,
+    icon: "🎯",
+    color: "from-purple-500 to-pink-500"
+  },
+ 
   {
     id: 3,
     title: "Interior Design & Fit Out",
@@ -82,20 +83,21 @@ const services = [
 ];
 
 const additionalServices = [
-  {
+   {
     id: 1,
-    title: "Event Design & Management",
-    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
-    image: exhi0,
-    stats: "500+ Events"
-  },
-  {
-    id: 2,
     title: "Exhibition Stand Design & Construction",
     description: "Transforming visions into stunning physical spaces that captivate and engage",
     image: exhi1,
     stats: "1000+ Stands"
   },
+  {
+    id: 2,
+    title: "Event Design & Management",
+    description: "Creating unforgettable experiences with meticulous planning and flawless execution",
+    image: exhi0,
+    stats: "500+ Events"
+  },
+ 
   {
     id: 3,
     title: "Interior Design & Fit Out",
@@ -238,7 +240,7 @@ export default function Services() {
       {/* Header Section */}
       <div className="w-full flex flex-col gap-10 mb-20">
         <div className="w-full flex items-center flex-col gap-3">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
@@ -249,7 +251,7 @@ export default function Services() {
             className="w-fit py-2 px-3 rounded-full border border-[#2222221A] text-black dark:text-white font-dmSans text-sm font-medium leading-tight tracking-[-0.02188rem]"
           >
             Our Expertise
-          </motion.div>
+          </motion.div> */}
         </div>
         <div>
           <Heading

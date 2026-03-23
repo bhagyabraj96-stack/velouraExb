@@ -7,8 +7,9 @@ import { testimonials } from "@/constants";
 export default function Testimonials() {
 	const phares = ["Our Mission"];
 	const phares1 = [
-		"From intuitive design to powerful features, our app has",
-		"become an essential tool for users around the world.",
+		"We don’t just build exhibition stalls—we create experiences that leave a lasting impact.",
+			"Our clients trust us to deliver creativity, quality, and results, ",
+			"and their feedback speaks volumes about the passion we bring to every project."
 	];
 	return (
 		<div className="w-full flex flex-col items-center padding-x py-10 gap-20 bg-gradient-to-br from-gray-50 to-gray-100  xs:gap-10 sm:gap-10 dark:from-gray-900 dark:to-gray-800">

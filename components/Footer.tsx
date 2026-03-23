@@ -54,6 +54,15 @@ export default function Footer() {
 						/>
 					</div>
 					<div className="flex items-center gap-4  xs:flex-col sm:flex-col">
+						<p className="paragraph font-normal leading-tight text-[#BCBCBC] dark:text-gray-400 bg-transparent border-none cursor-pointer hover:text-white transition-colors">
+							info@velouraexhibition.com
+							
+						</p>
+						<p className="paragraph font-normal leading-tight text-[#BCBCBC] dark:text-gray-400 bg-transparent border-none cursor-pointer hover:text-white transition-colors">
+							+971 588860730
+						</p>
+					</div>
+					<div className="flex items-center gap-4  xs:flex-col sm:flex-col">
 						{footerItems.map((item) => (
 							<button
 								onClick={() => handleFooterNavigation(item.title)}

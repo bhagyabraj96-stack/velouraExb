@@ -28,6 +28,20 @@ export default function Navbar() {
 						<p>Navigation</p>
 					</div>
 					{navigationItems.map((data, index) => {
+						// Handle View Profile to open PDF in new window
+						if (data.title === 'View Profile') {
+							return (
+								<button
+									key={index}
+									onClick={() => {
+										window.open('/files/Veloura_Global.pdf', '_blank', 'noopener,noreferrer');
+									}}
+									className="text-[50px] md:text-[45px] sm:text-[40px] xm:text-[30px] text-white font-normal hover:text-gray-300 transition-colors text-left"
+								>
+									{data.title}
+								</button>
+							);
+						}
 						return (
 							<Links
 								className="text-white font-normal" 

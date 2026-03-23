@@ -78,7 +78,7 @@ import {
   logopg7,
   logopg8
 } from "@/public";
-import wechatQr from "@/public/wechat-qr.png";
+import wechatQr from "@/public/wechat-qr.jpeg";
 import { features } from "process";
 
 /**
@@ -636,16 +636,16 @@ export const footerItems = [
       title: 'Services',
       href: '/services'
    },
-   {
-      id: 4,
-      title: 'Customers',
-      href: '/customers'
-   },
-   {
-      id: 5,
-      title: 'Reviews',
-      href: '/reviews'
-   },
+   // {
+   //    id: 4,
+   //    title: 'Customers',
+   //    href: '/customers'
+   // },
+   // {
+   //    id: 5,
+   //    title: 'Reviews',
+   //    href: '/reviews'
+   // },
    {
       id: 6,
       title: 'View Profile',
@@ -694,7 +694,7 @@ export const footerSocialsItems = [
       id: 6,
       src: whatsapp,
       name: "WhatsApp",
-      href: "https://wa.me/9846010886", // Replace with your WhatsApp number
+      href: "https://wa.me/971588860730", // Replace with your WhatsApp number
       isWhatsApp: true
    }
   

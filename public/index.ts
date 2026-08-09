@@ -102,6 +102,15 @@ export const al_ghurair_img10 = '/al_ghurair/img38.jpeg';
 export const al_ghurair_img11 = '/al_ghurair/img39.jpeg';
 export const al_ghurair_vdo1 = '/al_ghurair/vdo3.mp4';
 
+
+export const nscf_img1 = '/nscf/nscf1.jpeg';
+export const nscf_img2 = '/nscf/nscf2.jpeg';
+export const nscf_img3 = '/nscf/nscf3.jpeg';
+export const nscf_img4 = '/nscf/nscf4.jpeg';
+export const nscf_img5 = '/nscf/nscf5.jpeg';
+export const nscf_img6 = '/nscf/nscf6.jpeg';
+export const nscf_vdo1 = '/nscf/nscfvdo.mp4';
+
 export const bonetech_img1 = '/bonetech/img1.jpeg';
 export const bonetech_img2 = '/bonetech/img2.jpeg';
 export const bonetech_img3 = '/bonetech/img3.jpeg';

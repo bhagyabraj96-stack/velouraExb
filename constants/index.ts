@@ -136,7 +136,14 @@ import {
   sudambeef_img23,
   sudambeef_img24,
   sudambeef_img25,
-  sudambeef_vdo2
+  sudambeef_vdo2,
+  nscf_img1,
+  nscf_img2,
+  nscf_img3,
+  nscf_img4,
+  nscf_img5,
+  nscf_img6,
+  nscf_vdo1
 } from "@/public";
 import wechatQr from "@/public/wechat-qr.jpeg";
 import { features } from "process";
@@ -316,6 +323,57 @@ export const testimonials = [
 ];
 
 export const portpofolio = [
+   {
+      id: 50,
+      src: nscf_img4,
+      name: "National service career fair @2026",
+      folder: "nscf",
+      username: "@uae",
+      context: [
+         {
+            id: 501,
+            src: nscf_img1,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 502,
+            src: nscf_img2,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 504,
+            src: nscf_img3,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 505,
+            src: nscf_img4,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 506,
+            src: nscf_img5,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 507,
+            src: nscf_img6,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 503,
+            src: nscf_vdo1,
+            name: "NSCF Video",
+            type: "mp4",
+         }
+      ]
+   },
    {
       id: 40,
       src: al_ghurair_img1,

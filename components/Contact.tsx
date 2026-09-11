@@ -64,7 +64,7 @@ export default function Contact() {
 			console.log('Sending email with params:', params);
 
 			const response = await (window as any).emailjs.send(
-				"service_lc327ru", 
+				"service_xi723mr", 
 				"template_9cnzo14", 
 				params
 			);

@@ -195,7 +195,6 @@ import {
   tiam_img6,
   tiam_img7,
   tiam_img8,
-  tiam_img9,
   tiamvdo,
   iit_img1,
   iit_img2,

@@ -362,7 +362,7 @@ export const testimonials = [
     {
       id: 5,
       text: "This app has completely transformed how I manage my projects and deadlines.",
-      src: tiam_img5,
+      src: tiam_img3,
       name: "TIA'M",
       username: "@uae",
       
@@ -375,6 +375,18 @@ export const testimonials = [
       username: "@uae",
       
    },
+   
+   {
+      id: 40,
+      src: microsensor_img3,
+      name: "Microsensor",
+      username: "@uae",
+   },{
+      id: 41,
+      src: cnp_img2,
+      name: "CNP",
+      username: "@uae",
+   },
    {
       id: 20,
       src: iit_img1,
@@ -383,7 +395,7 @@ export const testimonials = [
    },
     {
       id: 30,
-      src: tiam_img5,
+      src: tiam_img3,
       name: "TIA'M",
       username: "@uae",
     },
@@ -401,13 +413,13 @@ export const testimonials = [
       username: "@uae",
      },
       {
-      id: 33,
+      id: 34,
       src: arady_img1,
       name: "Arady",
       username: "@uae",
      },
       {
-      id: 33,
+      id: 35,
       src: maxge_img1,
       name: "Maxge",
       username: "@uae",
@@ -545,7 +557,7 @@ export const portpofolio = [
    {
       id: 57,
       src: iit_img1,
-      name: "Indian Institute of Technology Delhi Abu Dhabi",
+      name: "Indian Institute of Technology Delhi Abu Dhabi - BMI 2026",
       folder: "iit",
       username: "@uae",
       context: [
@@ -619,12 +631,12 @@ export const portpofolio = [
             name: "Tiam",
             type: "heic",
          },
-         {
-            id: 565,
-            src: tiam_img5,
-            name: "Tiam",
-            type: "jpeg",
-         },
+         // {
+         //    id: 565,
+         //    src: tiam_img5,
+         //    name: "Tiam",
+         //    type: "jpeg",
+         // },
          {
             id: 566,
             src: tiam_img6,
@@ -1802,148 +1814,7 @@ export const portpofolio = [
 ];
 
 export const portpofolioDesk = [
-   {
-      id: 57,
-      src: iit_img1,
-      name: "Indian Institute of Technology",
-      folder: "iit",
-      username: "@uae",
-      context: [
-         {
-            id: 571,
-            src: iit_img1,
-            name: "IIT",
-            type: "jpeg",
-         },
-         {
-            id: 572,
-            src: iit_img2,
-            name: "IIT",
-            type: "jpeg",
-         },
-         // {
-         //    id: 573,
-         //    src: iit_img3,
-         //    name: "IIT Video",
-         //    type: "mp4",
-         // },
-         {
-            id: 574,
-            src: iit_img4,
-            name: "IIT",
-            type: "jpeg",
-         },
-         {
-            id: 575,
-            src: iit_img5,
-            name: "IIT",
-            type: "jpeg",
-         }
-      ]
-   },
-   {
-      id: 56,
-      src: tiam_img2,
-      name: "TIA'M ",
-      folder: "tiam",
-      username: "@uae",
-      context: [
-         {
-            id: 561,
-            src: tiam_img1,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 562,
-            src: tiam_img2,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 563,
-            src: tiam_img3,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 564,
-            src: tiam_img4,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 565,
-            src: tiam_img5,
-            name: "Tiam",
-            type: "jpeg",
-         },
-         {
-            id: 566,
-            src: tiam_img6,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 567,
-            src: tiam_img7,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 568,
-            src: tiam_img8,
-            name: "Tiam",
-            type: "heic",
-         },
-         {
-            id: 570,
-            src: tiamvdo,
-            name: "Tiam Video",
-            type: "mp4",
-         }
-      ]
-   },
    
-   {
-      id: 55,
-      src: derma_img1,
-      name: "Regenera Activa",
-      folder: "derma",
-      username: "@uae",
-      context: [
-         {
-            id: 551,
-            src: derma_img1,
-            name: "Derma",
-            type: "jpeg",
-         },
-         {
-            id: 552,
-            src: derma_img2,
-            name: "Derma",
-            type: "jpeg",
-         },
-         {
-            id: 553,
-            src: derma_img3,
-            name: "Derma",
-            type: "jpeg",
-         },
-         {
-            id: 554,
-            src: derma_img4,
-            name: "Derma",
-            type: "jpeg",
-         },
-         {
-            id: 555,
-            src: dermavdo,
-            name: "Derma Video",
-            type: "mp4",
-         }
-      ]
-   },
    {
       id: 52,
       src: liyu_img1,
@@ -2857,108 +2728,232 @@ export const portpofolioDesk = [
          
       ],
    },
-   {
-      id: 2,
-      src: exhi1,
-      name: "SPACE TOP CO LTD",
-      username: "@uae",
-      context: [],
-   },
-   {
-      id: 3,
-      text: "Our team's productivity has skyrocketed since we started using this tool. ",
-      src: exhi2,
-      name: "KJO",
+    {
+      id: 58,
+      src: cnp_img1,
+      name: "CNP - Wetex 2026",
+      folder: "cnp",
       username: "@uae",
       context: [
          {
-            id: 300,
-            src: exhi3,
-            name: "KJO ",
+            id: 581,
+            src: cnp_img1,
+            name: "CNP",
             type: "jpeg",
          },
          {
-            id: 301,
-            src: exhi4,
-            name: "KJO ",
+            id: 582,
+            src: cnp_img2,
+            name: "CNP",
             type: "jpeg",
          },
          {
-            id: 302,
-            src: exhi2,
-            name: "KJO ",
-            type: "png",
+            id: 583,
+            src: cnp_img3,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 584,
+            src: cnp_img4,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 585,
+            src: cnp_img5,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 586,
+            src: cnp_vdo,
+            name: "CNP",
+            type: "mp4",
          }
-         
-      ],
+      ]
    },
-  
    {
-      id: 6,
-      text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
-      src: exhi5,
-      name: "TAIBA INVESTMENTS",
+      id: 59,
+      src: microsensor_img3,
+      name: "Microsensor - Wetex 2026",
+      folder: "microsensor",
       username: "@uae",
       context: [
          {
-            id: 601,
-            src: exhi5,
-            name: "TAIBA INVESTMENTS",
+            id: 591,
+            src: microsensor_img1,
+            name: "Microsensor",
             type: "jpeg",
          },
-      ],
+         {
+            id: 592,
+            src: microsensor_img2,
+            name: "Microsensor",
+            type: "jpeg",
+         },
+         {
+            id: 593,
+            src: microsensor_img3,
+            name: "Microsensor",
+            type: "jpeg",
+         },
+         {
+            id: 594,
+            src: microsensor_vdo,
+            name: "Microsensor",
+            type: "mp4",
+         }
+      ]
    },
    {
-      id: 7,
-      text: "The customizability and integration capabilities of this app are top-notch.",
-      src: exhi6,
-      name: "PERF",
+      id: 57,
+      src: iit_img1,
+      name: "IIT Delhi Abu Dhabi",
+      folder: "iit",
       username: "@uae",
       context: [
          {
-            id: 701,
-            src: exhi6,
-            name: "PERF",
-            type: "png",
-         },
-      ],
-   },
-   {
-      id: 8,
-      text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
-      src: exhi7,
-      name: "SAUDI SOFT",
-      username: "@saudi",
-      context: [
-         {
-            id: 801,
-            src: exhi7,
-            name: "Team Collaboration",
+            id: 571,
+            src: iit_img1,
+            name: "IIT",
             type: "jpeg",
          },
          {
-            id: 1201,
-            src: exhi11,
-            name: "Saudi Soft Project",
+            id: 572,
+            src: iit_img2,
+            name: "IIT",
             type: "jpeg",
          },
-      ],
-   },
-   {
-      id: 9,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi8,
-      name: "YOKOGAWA",
-      username: "@uae",
-      context: [
          // {
-         //    id: 901,
-         //    src: exhi11,
-         //    name: "Task Management",
+         //    id: 573,
+         //    src: iit_img3,
+         //    name: "IIT Video",
          //    type: "mp4",
          // },
-      ],
+         {
+            id: 574,
+            src: iit_img4,
+            name: "IIT",
+            type: "jpeg",
+         },
+         {
+            id: 575,
+            src: iit_img5,
+            name: "IIT",
+            type: "jpeg",
+         },
+         {
+            id: 576,
+            src: iit_vdo,
+            name: "IIT",
+            type: "mp4",
+         }
+      ]
    },
+   {
+      id: 56,
+      src: tiam_img2,
+      name: "TIA'M ",
+      folder: "tiam",
+      username: "@uae",
+      context: [
+         {
+            id: 561,
+            src: tiam_img1,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 562,
+            src: tiam_img2,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 563,
+            src: tiam_img3,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 564,
+            src: tiam_img4,
+            name: "Tiam",
+            type: "heic",
+         },
+         // {
+         //    id: 565,
+         //    src: tiam_img5,
+         //    name: "Tiam",
+         //    type: "jpeg",
+         // },
+         {
+            id: 566,
+            src: tiam_img6,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 567,
+            src: tiam_img7,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 568,
+            src: tiam_img8,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 570,
+            src: tiamvdo,
+            name: "Tiam Video",
+            type: "mp4",
+         }
+      ]
+   },
+   
+   {
+      id: 55,
+      src: derma_img1,
+      name: "Regenera Activa",
+      folder: "derma",
+      username: "@uae",
+      context: [
+         {
+            id: 551,
+            src: derma_img1,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 552,
+            src: derma_img2,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 553,
+            src: derma_img3,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 554,
+            src: derma_img4,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 555,
+            src: dermavdo,
+            name: "Derma Video",
+            type: "mp4",
+         }
+      ]
+   }
    
   
 ];

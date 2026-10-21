@@ -2,9 +2,9 @@
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { TextMask } from "@/animations";
-import { imgDemo, productImage, pyramid, tube } from "@/public";
+import { imgDemo, imgvel, productImage, pyramid, tube } from "@/public";
 import { useRef } from "react";
-import { portpofolio } from "@/constants";
+import { portpofolio, portpofolioDesk } from "@/constants";
 import Eye from "./Eye";
 import Heading from "./Heading";
 
@@ -84,7 +84,7 @@ export default function ProductShowcase() {
 					</motion.div> */}
 					{/* Features Grid - Scattered on Desktop, Limited on Mobile */}
           <div className="mdd:relative w-full h-[800px] xs:h-auto sm:h-auto lg:h-[800px] xl:h-[800px] hidden mdd:block">
-            {portpofolio.map((item, index) => (
+            {portpofolioDesk.map((item, index) => (
               <div
                 key={item.id}
                 className={`mdd:absolute xs:w-[250px] bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow ${
@@ -123,7 +123,7 @@ export default function ProductShowcase() {
 
           {/* Mobile Layout - Maximum 3 Items */}
            <div className="w-full mdd:hidden h-[800px] xs:h-auto sm:h-auto lg:h-[800px] xl:h-[800px]  md:block flex flex-col items-center justify-center lg:relative">
-           {portpofolio.slice(0, 3).map((item, index) => (
+           {portpofolioDesk.slice(0, 3).map((item, index) => (
               <div
                 key={item.id}
                 className={`bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow mb-4 xs:w-[250px] lg:absolute ${
@@ -184,17 +184,20 @@ export default function ProductShowcase() {
 
          
 					<motion.div
-						initial={{ opacity: 0, scale: 0 }}
-						whileInView={{ opacity: 1, scale: 1 }}
-						transition={{
-							duration: 1,
-							type: "spring",
-						}}
-						viewport={{ once: true }}
 						className="absolute -left-40 bottom-0 xs:hidden sm:hidden"
-						style={{ y: mq }}>
+						style={{ opacity: 1, transform: 'translateY(122px) scaleX(-1)' }}>
 						<Image
-							src={tube}
+							src={imgvel}
+							alt="tube-hero-img"
+							width={250}
+							height={250}
+						/>
+					</motion.div>
+					<motion.div
+						className="absolute -right-40 bottom-0 xs:hidden sm:hidden"
+						style={{ opacity: 1, transform: 'translateY(122px)' }}>
+						<Image
+							src={imgvel}
 							alt="tube-hero-img"
 							width={250}
 							height={250}

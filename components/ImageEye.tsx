@@ -3,7 +3,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-import { imgDemo } from "@/public";
+import { velourahello } from "@/public";
 
 export default function ImageEye() {
 	const imageRef = useRef<HTMLDivElement>(null);
@@ -73,7 +73,7 @@ export default function ImageEye() {
 			className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] py-8"
 			ref={wrapperRef}>
 			<div
-				className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full shadow-2xl overflow-hidden"
+				className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] xs:w-[300px] xs:h-[300px] rounded-full shadow-2xl overflow-hidden"
 				ref={imageContainerRef}>
 				<motion.div
 					animate={{
@@ -88,8 +88,8 @@ export default function ImageEye() {
 					ref={imageRef}>
 					<div className="w-full h-full flex items-center justify-center">
 						<Image
-							src={imgDemo}
-							alt="interactive demo image"
+							src={velourahello}
+							alt="veloura hello gif"
 							width={300}
 							height={300}
 							className="w-auto h-auto max-w-[90%] max-h-[90%] object-contain"

@@ -3,12 +3,13 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button, Heading, ImageEye, Navbar } from "@/components";
 import { imageAnimation, textAnimation } from "@/motion";
-import { ArrowRight, cog, cylinder, noodle } from "@/public";
-import { useRef } from "react";
+import { ArrowRight, cog, cylinder, noodle, velvdo } from "@/public";
+import { useRef, useState } from "react";
 import { TextMask } from "@/animations";
 
 export default function Hero() {
 	const container = useRef(null);
+	const [isVideoOpen, setIsVideoOpen] = useState(false);
 
 	const { scrollYProgress } = useScroll({
 		target: container,
@@ -58,13 +59,18 @@ export default function Hero() {
 							whileInView="enter"
 							viewport={{ once: true }}>
 							<Button
-								className="text-white bg-black py-2 px-4 shadow-[0px_0px_8px_1px_white]"
+								className="text-white bg-black py-2 px-4 shadow-[0px_0px_8px_1px_white] hover:scale-105 hover:brightness-110 hover:shadow-[0px_0px_12px_2px_white] transition-all duration-300"
 								title="Get free quote"
 								onClick={() => {
 									window.dispatchEvent(new CustomEvent('navigate', { detail: { page: 'contact' } }));
 								}}
 							/>
-							
+							<Button
+								className="text-white bg-black py-2 px-4 shadow-[0px_0px_8px_1px_white] hover:scale-105 hover:brightness-110 hover:shadow-[0px_0px_12px_2px_white] transition-all duration-300"
+								title="Watch Video"
+								onClick={() => setIsVideoOpen(true)}
+							/>
+
 						</motion.div>
 					</div>
 				</div>
@@ -117,6 +123,35 @@ export default function Hero() {
 					</motion.div> */}
 				</div>
 			</div>
+
+			{/* Video Modal */}
+			{isVideoOpen && (
+				<div
+					className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
+					onClick={() => setIsVideoOpen(false)}
+				>
+					<div
+						className="relative max-w-4xl max-h-[90vh]"
+						onClick={(e) => e.stopPropagation()}
+					>
+						<button
+							onClick={() => setIsVideoOpen(false)}
+							className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors"
+							aria-label="Close video"
+						>
+							<svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+							</svg>
+						</button>
+						<video
+							src={velvdo}
+							autoPlay
+							controls
+							className="xs:w-full xs:h-full rounded-lg"
+						/>
+					</div>
+				</div>
+			)}
 		</div>
 	);
 }

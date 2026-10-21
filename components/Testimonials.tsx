@@ -128,7 +128,7 @@ export default function Testimonials() {
 						repeat: Infinity,
 						repeatType: "loop",
 						ease: "linear",
-						duration: 16,
+						duration: 30,
 					}}>
 					{[...testimonials.slice(6), ...testimonials.slice(6)].map((item, index) => (
 						<div

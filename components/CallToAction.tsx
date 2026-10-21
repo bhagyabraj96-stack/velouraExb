@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button, Eye, Heading } from "@/components";
-import { ArrowRight, imgDemo, spring, star } from "@/public";
+import { ArrowRight, imgDemo, spring, star, velgif, velourahello } from "@/public";
 import { imageAnimation, textAnimation } from "@/motion";
 
 export default function CallToAction() {
@@ -14,8 +14,15 @@ export default function CallToAction() {
 	];
 	return (
 		<div className="w-full padding-x py-10 relative bg-gradient-to-b from-white to-[#d2dcff] dark:from-gray-900 dark:to-gray-800">
-			<div className="absolute left-40  top-1/2 xs:top-0 -translate-y-1/2">
-				<Eye/>
+			<div className="absolute left-40  top-1/2 xs:top-2 xs:h-[200px] sm:left-[23px]  -translate-y-1/2">
+				{/* <Eye/> */}
+				<Image
+											src={velourahello}
+											alt="interactive demo image"
+											width={300}
+											height={300}
+											className="w-auto h-auto max-w-[90%] max-h-[90%] object-contain"
+										/>
 			</div>
 			<div className="w-full flex items-center xs:mt-20 justify-center gap-5 pl-20 sm:pl-40 xs:pl-0">
 				{/* <motion.div

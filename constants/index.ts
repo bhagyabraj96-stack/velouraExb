@@ -398,7 +398,7 @@ export const portpofolio = [
    {
       id: 57,
       src: iit_img1,
-      name: "Middle East energy 2026 - IIT",
+      name: "Indian Institute of Technology Delhi Abu Dhabi",
       folder: "iit",
       username: "@uae",
       context: [
@@ -437,7 +437,7 @@ export const portpofolio = [
    {
       id: 56,
       src: tiam_img2,
-      name: "Middle East energy 2026 - Tiam",
+      name: "TIA'M - Beauty world 2026",
       folder: "tiam",
       username: "@uae",
       context: [
@@ -501,7 +501,7 @@ export const portpofolio = [
    {
       id: 55,
       src: derma_img1,
-      name: "Middle East energy 2026 - Derma",
+      name: "Regenera Activa - Dubai Derma 2026",
       folder: "derma",
       username: "@uae",
       context: [

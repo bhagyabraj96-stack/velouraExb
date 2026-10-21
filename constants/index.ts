@@ -187,6 +187,16 @@ import {
   derma_img3,
   derma_img4,
   dermavdo,
+  cnp_img1,
+  cnp_img2,
+  cnp_img3,
+  cnp_img4,
+  cnp_img5,
+  cnp_vdo,
+  microsensor_img1,
+  microsensor_img2,
+  microsensor_img3,
+  microsensor_vdo,
   tiam_img1,
   tiam_img2,
   tiam_img3,
@@ -198,7 +208,6 @@ import {
   tiamvdo,
   iit_img1,
   iit_img2,
-  iit_img3,
   iit_img4,
   iit_img5,
   relations_img1,
@@ -214,7 +223,8 @@ import {
   relations_img11,
   relations_img12,
   relations_img13,
-  relations_vdo1
+  relations_vdo1,
+  iit_vdo
 } from "@/public";
 import wechatQr from "@/public/wechat-qr.jpeg";
 import { features } from "process";
@@ -344,56 +354,194 @@ export const testimonials = [
    {
       id: 4,
       text: "This app has completely transformed how I manage my projects and deadlines.",
-      src: exhi3,
-      name: "KJO",
+      src: iit_img1,
+      name: "Indian Institute of Technology",
       username: "@uae",
       
    },
     {
       id: 5,
       text: "This app has completely transformed how I manage my projects and deadlines.",
-      src: exhi3,
-      name: "KJO",
+      src: tiam_img5,
+      name: "TIA'M",
       username: "@uae",
       
    },
     {
       id: 6,
       text: "This app has completely transformed how I manage my projects and deadlines.",
-      src: exhi3,
-      name: "KJO",
+      src: derma_img1,
+      name: "Derma",
       username: "@uae",
       
    },
    {
       id: 20,
-      src: exhi20,
-      name: "BRISTOL",
+      src: iit_img1,
+      name: "Indian Institute of Technology",
       username: "@uae",
    },
     {
       id: 30,
-      src: exhi30,
-      name: "Nakamichi",
+      src: tiam_img5,
+      name: "TIA'M",
       username: "@uae",
     },
     
      {
       id: 32,
-      src: exhi0,
-      name: "DESON",
+      src: derma_img1,
+      name: "Derma",
       username: "@uae",
      },
       {
       id: 33,
-      src: exhi0,
-      name: "DESON",
+      src: liyu_img1,
+      name: "Liyu Power",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: arady_img1,
+      name: "Arady",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: maxge_img1,
+      name: "Maxge",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: relations_img1,
+      name: "Henan Relations",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: nscf_img1,
+      name: "National service career fair @2026",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: al_ghurair_img1,
+      name: "Al Ghurair",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: bonetech_img1,
+      name: "Bonetech",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: buena_cafe_img11,
+      name: "Buena Cafe",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: conaprole_img26,
+      name: "Conaprole",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: micro_solution_img10,
+      name: "Micro Solution",
+      username: "@uae",
+     },
+      {
+      id: 33,
+      src: sudambeef_img18,
+      name: "Sudambeef",
       username: "@uae",
      }
    
 ];
 
 export const portpofolio = [
+   {
+      id: 58,
+      src: cnp_img1,
+      name: "CNP - Wetex 2026",
+      folder: "cnp",
+      username: "@uae",
+      context: [
+         {
+            id: 581,
+            src: cnp_img1,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 582,
+            src: cnp_img2,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 583,
+            src: cnp_img3,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 584,
+            src: cnp_img4,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 585,
+            src: cnp_img5,
+            name: "CNP",
+            type: "jpeg",
+         },
+         {
+            id: 586,
+            src: cnp_vdo,
+            name: "CNP",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 59,
+      src: microsensor_img3,
+      name: "Microsensor - Wetex 2026",
+      folder: "microsensor",
+      username: "@uae",
+      context: [
+         {
+            id: 591,
+            src: microsensor_img1,
+            name: "Microsensor",
+            type: "jpeg",
+         },
+         {
+            id: 592,
+            src: microsensor_img2,
+            name: "Microsensor",
+            type: "jpeg",
+         },
+         {
+            id: 593,
+            src: microsensor_img3,
+            name: "Microsensor",
+            type: "jpeg",
+         },
+         {
+            id: 594,
+            src: microsensor_vdo,
+            name: "Microsensor",
+            type: "mp4",
+         }
+      ]
+   },
    {
       id: 57,
       src: iit_img1,
@@ -430,9 +578,16 @@ export const portpofolio = [
             src: iit_img5,
             name: "IIT",
             type: "jpeg",
+         },
+         {
+            id: 576,
+            src: iit_vdo,
+            name: "IIT",
+            type: "mp4",
          }
       ]
    },
+   
    {
       id: 56,
       src: tiam_img2,
@@ -796,6 +951,1258 @@ export const portpofolio = [
       id: 54,
       src: relations_img1,
       name: "Middle East energy 2026 - Henan Relations",
+      folder: "relations",
+      username: "@uae",
+      context: [
+         {
+            id: 541,
+            src: relations_img1,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 542,
+            src: relations_img2,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 543,
+            src: relations_img3,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 544,
+            src: relations_img4,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 545,
+            src: relations_img5,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 546,
+            src: relations_img6,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 547,
+            src: relations_img7,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 548,
+            src: relations_img8,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 549,
+            src: relations_img9,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 550,
+            src: relations_img10,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 551,
+            src: relations_img11,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 552,
+            src: relations_img12,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 553,
+            src: relations_img13,
+            name: "Relations",
+            type: "jpg",
+         },
+         {
+            id: 554,
+            src: relations_vdo1,
+            name: "Relations Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 50,
+      src: nscf_img4,
+      name: "National service career fair @2026",
+      folder: "nscf",
+      username: "@uae",
+      context: [
+         {
+            id: 501,
+            src: nscf_img1,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 502,
+            src: nscf_img2,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 504,
+            src: nscf_img3,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 505,
+            src: nscf_img4,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 506,
+            src: nscf_img5,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 507,
+            src: nscf_img6,
+            name: "NSCF",
+            type: "jpeg",
+         },
+         {
+            id: 503,
+            src: nscf_vdo1,
+            name: "NSCF Video",
+            type: "mp4",
+         }
+      ]
+   },
+  
+   {
+      id: 40,
+      src: al_ghurair_img1,
+      name: "Al Ghurair - Gulf 2026",
+      folder: "al_ghurair",
+      username: "@uae",
+      context: [
+         {
+            id: 401,
+            src: al_ghurair_img1,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 402,
+            src: al_ghurair_img2,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 404,
+            src: al_ghurair_img3,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 405,
+            src: al_ghurair_img4,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 406,
+            src: al_ghurair_img5,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 407,
+            src: al_ghurair_img6,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 408,
+            src: al_ghurair_img7,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 409,
+            src: al_ghurair_img8,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 410,
+            src: al_ghurair_img9,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 411,
+            src: al_ghurair_img10,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+{
+            id: 412,
+            src: al_ghurair_img11,
+            name: "Al Ghurair",
+            type: "jpeg",
+         },
+         {
+            id: 403,
+            src: al_ghurair_vdo1,
+            name: "Al Ghurair Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 42,
+      src: buena_cafe_img11,
+      name: "Buena Cafe - Gulf Food 2026",
+      folder: "Buencafe",
+      username: "@uae",
+      context: [
+         {
+            id: 421,
+            src: buena_cafe_img11,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 422,
+            src: buena_cafe_img12,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 423,
+            src: buena_cafe_img13,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 424,
+            src: buena_cafe_img14,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 425,
+            src: buena_cafe_img15,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 426,
+            src: buena_cafe_img16,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 427,
+            src: buena_cafe_img17,
+            name: "Buena Cafe",
+            type: "jpeg",
+         },
+         {
+            id: 428,
+            src: buena_cafe_vdo1,
+            name: "Buena Cafe Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 43,
+      src: conaprole_img26,
+      name: "Conaprole - Gulf Food 2026",
+      folder: "conaprole",
+      username: "@uae",
+      context: [
+         {
+            id: 431,
+            src: conaprole_img26,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 432,
+            src: conaprole_img27,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 433,
+            src: conaprole_img28,
+            name: "Conaprole",
+            type: "jpeg",
+         },
+         {
+            id: 434,
+            src: conaprole_vdo1,
+            name: "Conaprole Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 41,
+      src: bonetech_img1,
+      name: "Bonetech - World Health Expo 2026",
+      folder: "bonetech",
+      username: "@uae",
+      context: [
+         {
+            id: 411,
+            src: bonetech_img1,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 412,
+            src: bonetech_img2,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 413,
+            src: bonetech_img3,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 414,
+            src: bonetech_img4,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 415,
+            src: bonetech_img5,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 416,
+            src: bonetech_img6,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 417,
+            src: bonetech_img7,
+            name: "Bonetech",
+            type: "jpeg",
+         },
+         {
+            id: 418,
+            src: bonetech_vdo1,
+            name: "Bonetech",
+            type: "mp4",
+         },
+         {
+            id: 419,
+            src: bonetech_vdo2,
+            name: "Review Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 44,
+      src: micro_solution_img8,
+      name: "Micro Solution - World Health Expo 2026",
+      folder: "micro_solution",
+      username: "@uae",
+      context: [
+         {
+            id: 441,
+            src: micro_solution_img8,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 442,
+            src: micro_solution_img9,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 443,
+            src: micro_solution_img10,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 444,
+            src: micro_solution_img40,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 445,
+            src: micro_solution_img41,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 446,
+            src: micro_solution_img42,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 447,
+            src: micro_solution_img43,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 448,
+            src: micro_solution_img44,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 449,
+            src: micro_solution_img45,
+            name: "Micro Solution",
+            type: "jpeg",
+         },
+         {
+            id: 450,
+            src: micro_solution_vdo6,
+            name: "Micro Solutions Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 45,
+      src: sudambeef_img18,
+      name: "Sudambeef - Gulf food 2026",
+      folder: "sudambeef",
+      username: "@uae",
+      context: [
+         {
+            id: 451,
+            src: sudambeef_img18,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 452,
+            src: sudambeef_img19,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 453,
+            src: sudambeef_img20,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 454,
+            src: sudambeef_img21,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 455,
+            src: sudambeef_img22,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 456,
+            src: sudambeef_img23,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 457,
+            src: sudambeef_img24,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 458,
+            src: sudambeef_img25,
+            name: "Sudambeef",
+            type: "jpeg",
+         },
+         {
+            id: 459,
+            src: sudambeef_vdo2,
+            name: "Sudambeef Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 29,
+      src: exhi20,
+      name: "BRISTOL - Intersec 2026",
+      username: "@uae",
+      context: [
+         {
+            id: 201,
+            src: exhi20,
+            name: "BRISTOL",
+            type: "jpeg",
+         },
+          {
+            id: 202,
+            src: exhi21,
+            name: "BRISTOL",
+            type: "jpeg",
+         },
+          {
+            id: 203,
+            src: exhi22,
+            name: "BRISTOL",
+            type: "jpeg",
+         },
+          {
+            id: 204,
+            src: exhi23,
+            name: "BRISTOL",
+            type: "jpeg",
+         },
+          {
+            id: 205,
+            src: exhi24,
+            name: "BRISTOL",
+            type: "mp4",
+         }
+         
+      ],
+   },
+   {
+      id: 30,
+      src: exhi30,
+      name: "Nakamichi - China home life 2025",
+      username: "@uae",
+      context: [
+         {
+            id: 300,
+            src: exhi30,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 301,
+            src: exhi31,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 302,
+            src: exhi32,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 303,
+            src: exhi33,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 304,
+            src: exhi34,
+            name: "Nakamichi",
+            type: "jpeg",
+         }, {
+            id: 305,
+            src: exhi35,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 306,
+            src: exhi36,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+          {
+            id: 307,
+            src: exhi37,
+            name: "Nakamichi",
+            type: "jpeg",
+         },
+         {
+            id: 308,
+            src: exhi38,
+            name: "Nakamichi",
+            type: "mp4",
+         },
+          {
+            id: 309,
+            src: exhi39,
+            name: "Review",
+            type: "mp4",
+         }
+         
+      ],
+   },
+   {
+      id: 1,
+      src: exhi0,
+      name: "DESON - Index 2026",
+      username: "@uae",
+      context: [
+         {
+            id: 101,
+            src: exhi0,
+            name: "DESON Image 1",
+            type: "jpeg",
+         },
+          {
+            id: 1701,
+            src: exhi17,
+            name: "Deson Project",
+            type: "jpeg",
+         },
+         {
+            id: 1702,
+            src: exhi16,
+            name: "Deson Project",
+            type: "jpeg",
+         },
+         {
+            id: 1704,
+            src: exhi18,
+            name: "Deson Project",
+            type: "jpeg",
+         },
+         {
+            id: 1703,
+            src: exhi19,
+            name: "Deson Project",
+            type: "jpeg",
+         }
+         
+      ],
+   },
+   {
+      id: 2,
+      src: exhi1,
+      name: "SPACE TOP CO LTD",
+      username: "@uae",
+      context: [],
+   },
+   {
+      id: 3,
+      text: "Our team's productivity has skyrocketed since we started using this tool. ",
+      src: exhi2,
+      name: "KJO",
+      username: "@uae",
+      context: [
+         {
+            id: 300,
+            src: exhi3,
+            name: "KJO ",
+            type: "jpeg",
+         },
+         {
+            id: 301,
+            src: exhi4,
+            name: "KJO ",
+            type: "jpeg",
+         },
+         {
+            id: 302,
+            src: exhi2,
+            name: "KJO ",
+            type: "png",
+         }
+         
+      ],
+   },
+  
+   {
+      id: 6,
+      text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+      src: exhi5,
+      name: "TAIBA INVESTMENTS",
+      username: "@uae",
+      context: [
+         {
+            id: 601,
+            src: exhi5,
+            name: "TAIBA INVESTMENTS",
+            type: "jpeg",
+         },
+      ],
+   },
+   {
+      id: 7,
+      text: "The customizability and integration capabilities of this app are top-notch.",
+      src: exhi6,
+      name: "PERF",
+      username: "@uae",
+      context: [
+         {
+            id: 701,
+            src: exhi6,
+            name: "PERF",
+            type: "png",
+         },
+      ],
+   },
+   {
+      id: 8,
+      text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+      src: exhi7,
+      name: "SAUDI SOFT",
+      username: "@saudi",
+      context: [
+         {
+            id: 801,
+            src: exhi7,
+            name: "Team Collaboration",
+            type: "jpeg",
+         },
+         {
+            id: 1201,
+            src: exhi11,
+            name: "Saudi Soft Project",
+            type: "jpeg",
+         },
+      ],
+   },
+   {
+      id: 9,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi8,
+      name: "YOKOGAWA",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 901,
+         //    src: exhi11,
+         //    name: "Task Management",
+         //    type: "mp4",
+         // },
+      ],
+   },
+   {
+      id: 10,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi9,
+      name: "HYPE",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1001,
+         //    src: exhi12,
+         //    name: "Hype Project",
+         //    type: "jpeg",
+         // },
+      ],
+   },
+   {
+      id: 11,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi10,
+      name: "RAHEB GROUP",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1101,
+         //    src: exhi13,
+         //    name: "Raheb Group Project",
+         //    type: "png",
+         // },
+      ],
+   },
+   
+   {
+      id: 13,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi12,
+      name: "MANDIANT GOOGLE CLOUD",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1301,
+         //    src: exhi12,
+         //    name: "Mandiant Google Cloud Project",
+         //    type: "mp4",
+         // },
+      ],
+   },
+   {
+      id: 14,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi13,
+      name: "QUALYS",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1401,
+         //    src: exhi13,
+         //    name: "Qualys Project",
+         //    type: "png",
+         // },
+      ],
+   },
+   {
+      id: 15,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi14,
+      name: "VIKING",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1501,
+         //    src: exhi4,
+         //    name: "Viking Project",
+         //    type: "jpeg",
+         // },
+      ],
+   },
+   {
+      id: 16,
+      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+      src: exhi15,
+      name: "BULWARK",
+      username: "@uae",
+      context: [
+         // {
+         //    id: 1601,
+         //    src: exhi1,
+         //    name: "Bulwark Project",
+         //    type: "mp4",
+         // },
+      ],
+   },
+  
+];
+
+export const portpofolioDesk = [
+   {
+      id: 57,
+      src: iit_img1,
+      name: "Indian Institute of Technology",
+      folder: "iit",
+      username: "@uae",
+      context: [
+         {
+            id: 571,
+            src: iit_img1,
+            name: "IIT",
+            type: "jpeg",
+         },
+         {
+            id: 572,
+            src: iit_img2,
+            name: "IIT",
+            type: "jpeg",
+         },
+         // {
+         //    id: 573,
+         //    src: iit_img3,
+         //    name: "IIT Video",
+         //    type: "mp4",
+         // },
+         {
+            id: 574,
+            src: iit_img4,
+            name: "IIT",
+            type: "jpeg",
+         },
+         {
+            id: 575,
+            src: iit_img5,
+            name: "IIT",
+            type: "jpeg",
+         }
+      ]
+   },
+   {
+      id: 56,
+      src: tiam_img2,
+      name: "TIA'M ",
+      folder: "tiam",
+      username: "@uae",
+      context: [
+         {
+            id: 561,
+            src: tiam_img1,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 562,
+            src: tiam_img2,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 563,
+            src: tiam_img3,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 564,
+            src: tiam_img4,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 565,
+            src: tiam_img5,
+            name: "Tiam",
+            type: "jpeg",
+         },
+         {
+            id: 566,
+            src: tiam_img6,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 567,
+            src: tiam_img7,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 568,
+            src: tiam_img8,
+            name: "Tiam",
+            type: "heic",
+         },
+         {
+            id: 570,
+            src: tiamvdo,
+            name: "Tiam Video",
+            type: "mp4",
+         }
+      ]
+   },
+   
+   {
+      id: 55,
+      src: derma_img1,
+      name: "Regenera Activa",
+      folder: "derma",
+      username: "@uae",
+      context: [
+         {
+            id: 551,
+            src: derma_img1,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 552,
+            src: derma_img2,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 553,
+            src: derma_img3,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 554,
+            src: derma_img4,
+            name: "Derma",
+            type: "jpeg",
+         },
+         {
+            id: 555,
+            src: dermavdo,
+            name: "Derma Video",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 52,
+      src: liyu_img1,
+      name: "Liyu Power",
+      folder: "liyu",
+      username: "@uae",
+      context: [
+         {
+            id: 521,
+            src: liyu_img1,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 522,
+            src: liyu_img2,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 523,
+            src: liyu_img3,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 524,
+            src: liyu_img4,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 525,
+            src: liyu_img5,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 526,
+            src: liyu_img6,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 527,
+            src: liyu_img7,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 528,
+            src: liyu_img8,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 529,
+            src: liyu_img9,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 530,
+            src: liyu_img10,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 531,
+            src: liyu_img11,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 532,
+            src: liyu_img12,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 533,
+            src: liyu_img13,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 534,
+            src: liyu_img14,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 535,
+            src: liyu_img15,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 536,
+            src: liyu_img16,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 537,
+            src: liyu_img17,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 538,
+            src: liyu_img18,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 539,
+            src: liyu_img19,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 540,
+            src: liyu_img20,
+            name: "Liyu",
+            type: "jpg",
+         },
+         {
+            id: 541,
+            src: liyu_vdo1,
+            name: "Liyu Video",
+            type: "mp4",
+         }
+      ]
+   },
+    {
+      id: 51,
+      src: arady_img1,
+      name: "Arady",
+      folder: "arady",
+      username: "@uae",
+      context: [
+         {
+            id: 511,
+            src: arady_img1,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 512,
+            src: arady_img2,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 513,
+            src: arady_img3,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 514,
+            src: arady_img4,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 515,
+            src: arady_img5,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 516,
+            src: arady_img6,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 517,
+            src: arady_img7,
+            name: "Arady",
+            type: "jpg",
+         },
+         {
+            id: 518,
+            src: arady_vdo1,
+            name: "Arady Video",
+            type: "mp4",
+         }
+      ]
+   },
+   
+   {
+      id: 53,
+      src: maxge_img1,
+      name: "Maxge",
+      folder: "maxge",
+      username: "@uae",
+      context: [
+         {
+            id: 531,
+            src: maxge_img1,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 532,
+            src: maxge_img2,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 533,
+            src: maxge_img3,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 534,
+            src: maxge_img4,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 535,
+            src: maxge_img5,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 536,
+            src: maxge_img6,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 537,
+            src: maxge_img7,
+            name: "Maxge",
+            type: "jpg",
+         },
+         {
+            id: 538,
+            src: maxge_img8,
+            name: "Maxge",
+            type: "jpg",
+         },
+          {
+            id: 539,
+            src: maxgevdo,
+            name: "Maxge",
+            type: "mp4",
+         }
+      ]
+   },
+   {
+      id: 54,
+      src: relations_img1,
+      name: "Henan Relations",
       folder: "relations",
       username: "@uae",
       context: [
@@ -1551,97 +2958,7 @@ export const portpofolio = [
          // },
       ],
    },
-   {
-      id: 10,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi9,
-      name: "HYPE",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1001,
-         //    src: exhi12,
-         //    name: "Hype Project",
-         //    type: "jpeg",
-         // },
-      ],
-   },
-   {
-      id: 11,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi10,
-      name: "RAHEB GROUP",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1101,
-         //    src: exhi13,
-         //    name: "Raheb Group Project",
-         //    type: "png",
-         // },
-      ],
-   },
    
-   {
-      id: 13,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi12,
-      name: "MANDIANT GOOGLE CLOUD",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1301,
-         //    src: exhi12,
-         //    name: "Mandiant Google Cloud Project",
-         //    type: "mp4",
-         // },
-      ],
-   },
-   {
-      id: 14,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi13,
-      name: "QUALYS",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1401,
-         //    src: exhi13,
-         //    name: "Qualys Project",
-         //    type: "png",
-         // },
-      ],
-   },
-   {
-      id: 15,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi14,
-      name: "VIKING",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1501,
-         //    src: exhi4,
-         //    name: "Viking Project",
-         //    type: "jpeg",
-         // },
-      ],
-   },
-   {
-      id: 16,
-      text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-      src: exhi15,
-      name: "BULWARK",
-      username: "@uae",
-      context: [
-         // {
-         //    id: 1601,
-         //    src: exhi1,
-         //    name: "Bulwark Project",
-         //    type: "mp4",
-         // },
-      ],
-   },
   
 ];
 

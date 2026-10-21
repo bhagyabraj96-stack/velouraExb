@@ -65,10 +65,12 @@ export const star = '/star.png';
 export const productImage = '/product-image.png';
 export const pyramid = '/pyramid.png';
 export const tube = '/tube.png';
+export const imgvel = '/imgvel.png';
 export const check = '/check.svg';
 export const checkwhite = '/checkwhite.svg';
 export const arrowRightWhite = '/arrow-right-white.svg';
 export const imgDemo = '/imgDemo.png';
+export const velgif = '/vell.gif';
 export const makingGif = '/making.gif';
 export const wechat = '/wechat_logo.svg';
 export const whatsapp = '/whatsapp-logo.svg';
@@ -215,7 +217,7 @@ export const tiamvdo = '/tiam/tiamvdo.MP4';
 
 export const iit_img1 = '/iit/iit.jpeg';
 export const iit_img2 = '/iit/iit2.jpeg';
-export const iit_img3 = '/iit/iit3.mp4';
+export const iit_vdo = '/iit/iitvdo.mp4';
 export const iit_img4 = '/iit/iit4.jpeg';
 export const iit_img5 = '/iit/iit5.jpeg';
 
@@ -233,3 +235,15 @@ export const relations_img11 = '/relations/relations11.jpg';
 export const relations_img12 = '/relations/relations12.jpg';
 export const relations_img13 = '/relations/relations13.jpg';
 export const relations_vdo1 = '/relations/relationvdo.mp4';
+
+export const cnp_img1 = '/cnp/cnp1.jpeg';
+export const cnp_img2 = '/cnp/cnp2.jpeg';
+export const cnp_img3 = '/cnp/cnp3.jpeg';
+export const cnp_img4 = '/cnp/cnp4.jpeg';
+export const cnp_img5 = '/cnp/cnp5.jpeg';
+export const cnp_vdo = '/cnp/cnpvdo.mp4';
+
+export const microsensor_img1 = '/microsensor/micro1.jpeg';
+export const microsensor_img2 = '/microsensor/micro2.jpeg';
+export const microsensor_img3 = '/microsensor/micro3.jpeg';
+export const microsensor_vdo = '/microsensor/microvdo.mp4';
